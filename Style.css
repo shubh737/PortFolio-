@@ -1,0 +1,68 @@
+h1{
+color:yellow;
+background-color: aqua;
+text-align: center;
+margin: 33px;
+}
+.Header{
+border: solid;
+display: flex;
+padding-left: 10px;
+}
+
+.menu{
+color: aqua;
+padding-right: 30px;
+margin-right: 30px;
+}
+
+.menu a{
+margin-left: 30px;
+}
+
+a:link{
+color:aqua;
+}
+
+a:visited{
+color:aqua;
+}
+
+.grid{
+display: flex;
+justify-content: space-around;
+flex-wrap:wrap;
+}
+
+body{
+background-color:#000000;
+color:yellow;
+}
+
+.footer{
+display: flex;    
+justify-content: flex-end;
+}
+
+.item{
+position: relative;
+margin:30px;
+}
+
+
+
+.item p{
+position:absolute;
+top:50%;
+left:50%;    
+transform:translate(-50%,-50%);
+opacity:0;
+}
+
+.item:hover p{
+opacity:200;    
+}
+
+.item:hover img{
+opacity:0.33;
+}
